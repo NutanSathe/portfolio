@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <header>
+        <h1>Nutan Sathe</h1>
+        <p>Web Developer | Founder of Solvonest</p>
+    </header>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solvonest - Web Development</title>
+    <title>My Portfolio - Nutan Sathe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Solvonest</h1>
-        <p>Empowering Businesses with Stunning Web Solutions</p>
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is my updated portfolio website.</p>
     </header>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a team of web developers offering custom websites, UI/UX design, and digital solutions.</p>
+    <section>
+        <h2>About Me</h2>
+        <p>I am a web developer and founder of Solvonest.</p>
     </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>UI/UX Design</li>
-            <li>Digital Marketing</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@solvonest.com</p>
-    </section>
-
     <script src="script.js"></script>
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="project">
+            <h3>Website for Client</h3>
+            <p>Designed a responsive website for a business.</p>
+        </div>
+        <div class="project">
+            <h3>Solvonest Official Website</h3>
+            <p>Developed the official website of my company.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
 </body>
 </html>
